@@ -1,6 +1,20 @@
-.body {
+body {
     background-color: black;
-    background-image: url("../Images/Background.webp");
-    width: 80%;
+    background-image: url(../Images/Background.webp);
+    background-size: 100%;
     text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 3rem;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(232, 233, 220, 0.4);
+    border-radius:5pt;
+    
+}
+
+.button{
+    color: black;
 }
